@@ -1,0 +1,240 @@
+{
+  "id": "2042798",
+  "name": "紧固件",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17432290",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "17432291",
+      "name": "撤回",
+      "font_class": "chehui",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "17432292",
+      "name": "分配",
+      "font_class": "fenpei",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "17432293",
+      "name": "取消关闭",
+      "font_class": "quxiaoguanbi",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "17386224",
+      "name": "存档",
+      "font_class": "cundang",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "17386225",
+      "name": "已启动",
+      "font_class": "yiqidong",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "17386226",
+      "name": "未启动",
+      "font_class": "weiqidong",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "17350450",
+      "name": "启用",
+      "font_class": "qiyong1",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "17350451",
+      "name": "禁用",
+      "font_class": "jinyong1",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "17350452",
+      "name": "撤销",
+      "font_class": "chexiao",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "17338136",
+      "name": "任务统计",
+      "font_class": "renwutongji",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "17337832",
+      "name": "紧固件设计选型",
+      "font_class": "jingujianshejixuanxing",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "17337834",
+      "name": "方案启用禁用",
+      "font_class": "fanganqiyongjinyong",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "17337835",
+      "name": "零件信息启用禁用",
+      "font_class": "lingjianxinxiqiyongjinyong",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "17247712",
+      "name": "已关闭",
+      "font_class": "yiguanbi1",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "17243522",
+      "name": "启用",
+      "font_class": "qiyong",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "17243498",
+      "name": "草稿",
+      "font_class": "caogao",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "17243499",
+      "name": "审批中",
+      "font_class": "shenpizhong",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "17243450",
+      "name": "禁用",
+      "font_class": "jinyong",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "17243451",
+      "name": "已退回",
+      "font_class": "yituihui",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "17243453",
+      "name": "通过",
+      "font_class": "tongguo",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "17207443",
+      "name": "通知",
+      "font_class": "tongzhi",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "17205296",
+      "name": "待办任务",
+      "font_class": "daibanrenwu1",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "17205273",
+      "name": "紧固件零件库",
+      "font_class": "jingujianlingjianku",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "17196100",
+      "name": "筛选",
+      "font_class": "shaixuan",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "17171784",
+      "name": "待办任务",
+      "font_class": "daibanrenwu",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "17171786",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "17171787",
+      "name": "设计方案库",
+      "font_class": "shejifanganku",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "16980380",
+      "name": "待提交",
+      "font_class": "daitijiao",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "16980381",
+      "name": "任务详情",
+      "font_class": "renwuxiangqing",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "16978530",
+      "name": "流程记录",
+      "font_class": "liuchengjilu",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "16943701",
+      "name": "设计选型",
+      "font_class": "shejixuanxing",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "16943693",
+      "name": "笔",
+      "font_class": "bi",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    }
+  ]
+}
