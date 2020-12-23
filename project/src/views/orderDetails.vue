@@ -1,7 +1,6 @@
 <template>
   <div class="about">
     <operationArea></operationArea>
-    
     <div class="orderList">
       <el-row :gutter="10" class="">
         <el-col :span="20">

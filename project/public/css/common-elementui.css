@@ -7,7 +7,9 @@
 .el-checkbox__input.is-checked+.el-checkbox__label,
 .el-table-filter__bottom button:hover,
 .operationAreaLeft a:hover,
-.orderNum:hover .numValue p{
+.orderNum:hover .numValue p,
+.el-button--text,
+.el-dropdown:hover{
   color:#5576FC;
 }
 .el-tabs__active-bar{
@@ -32,6 +34,16 @@
   border-color: #5576FC;
   color: #FFF;
   opacity: 0.9;
+}
+.el-button--primary.is-disabled, .el-button--primary.is-disabled:active, .el-button--primary.is-disabled:focus, .el-button--primary.is-disabled:hover {
+  color: #FFF;
+  background-color: #dcdfe6;
+  border-color: #dcdfe6;
+}
+.el-button--text:focus, .el-button--text:hover {
+  opacity: 0.8;
+  border-color: transparent;
+  background-color: transparent;
 }
 /*复选框*/
 .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner,
@@ -101,6 +113,27 @@
 .subTab .el-tabs__header{
   margin-bottom: 2px;
 }
+.abnormalTip.el-tabs--top .el-tabs__item.is-top:nth-child(2) {
+  padding-left: 0;
+}
+.abnormalTip .el-tabs__header{
+  margin-bottom: 0;
+}
+.abnormalTip .el-tabs__item {
+  height: 34px;
+  line-height: 34px;
+  font-size: 12px;
+}
+.abnormalTip .el-tabs__content{
+  border-top: 2px solid #eee;
+  padding-top: 10px;
+}
+.abnormalTip ol{
+  padding:0 15px
+}
+.abnormalTip ol li:last-child{
+  border-bottom: none;
+}
 /*table表格*/
 .el-table th{
   font-weight: bold;
@@ -128,6 +161,15 @@
 }
 .col_9{
   background-color:#fff!important;
+}
+.el-table--border th{
+  border-right: 1px solid transparent;
+}
+.el-table--border td{
+  border-right: 1px solid transparent;
+}
+.el-table--border, .el-table--group {
+  border: 1px solid rgb(248 248 251);
 }
 /*分页*/
 .el-pagination{
@@ -253,6 +295,46 @@
 }
 .orderNum:hover{
   border: 1px solid #5576FC;
+}
+/*Notification 通知*/
+.el-notification {
+  width: 270px;
+}
+/*弹窗*/
+.el-dialog__wrapper{
+  text-align: left;
+}
+.el-dialog__body {
+  padding: 10px 20px;
+}
+.el-form-item__content,
+.el-select{
+  width: 100%;
+}
+/*文件上传*/
+.el-upload{
+  width: 100%;
+}
+/*下拉菜单*/
+.el-dropdown {
+  color: #6b6c70;
+  font-size: 12px;
+  background: #fff;
+  border: 1px solid #dcdfe6;
+  border-radius: 3px;
+  height: 28px;
+  line-height: 26px;
+  padding: 0 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.el-dropdown:hover{
+  border-color: #5576FC;
+  background-color: #f6f6ff;
+}
+.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover {
+  background-color: #f6f6ff;
+  color: #5576fc;
 }
 
 
