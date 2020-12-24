@@ -85,6 +85,7 @@
               <el-dropdown-item @click.native="exception = true">提交异常</el-dropdown-item>
               <el-dropdown-item @click.native="toVoid = true">作废</el-dropdown-item>
               <el-dropdown-item>打印</el-dropdown-item>
+              <el-dropdown-item>导入</el-dropdown-item>
               <el-dropdown-item>导出</el-dropdown-item>
             </el-dropdown-menu>
           </el-dropdown>
@@ -237,7 +238,7 @@
       :visible.sync="assign"
       width="40%"
       >
-      <el-form :inline="true" label-width="90px">
+      <el-form :inline="true" label-width="120px">
         <el-row :gutter="20">
           <el-col :span="12">
             <el-form-item size="small" label="委托客户" class="df">
@@ -415,10 +416,7 @@
             tooltip-effect="dark"
             height="240"
             @selection-change="handleSelectionChange">
-            <el-table-column
-              type="selection"
-              width="55">
-            </el-table-column>
+            <el-table-column type="selection" width="55"></el-table-column>
             <el-table-column prop="customerIDNo" label="客户识别号"></el-table-column>
             <el-table-column prop="orderNo" label="单证号"></el-table-column>
             <el-table-column prop="consignee" label="收发货人"></el-table-column>
@@ -486,11 +484,12 @@
         </el-form>
         <el-row :gutter="40" class="documentsTab">
           <el-col :span="12" class="">
-            <p class="m-b-10">已绑定订单单证</p>
+            <p class="m-b-10">未绑定订单单证</p>
             <el-table
               :data="boundTableData"
               height="240"
               >
+              <el-table-column type="selection" width="55"></el-table-column>
               <el-table-column prop="HZCustIDNo" label="核注清单客户识别号" width="140"></el-table-column>
               <el-table-column prop="HZDocNo" label="核注清单单证号" width="120">
                 <template slot-scope="scope">
@@ -509,11 +508,12 @@
             </el-table>
           </el-col>
           <el-col :span="12" class="">
-            <p class="m-b-10">未绑定订单单证</p>
+            <p class="m-b-10">已绑定订单单证</p>
             <el-table
               :data="unboundTableData"
               height="240"
               >
+              <el-table-column type="selection" width="55"></el-table-column>
               <el-table-column prop="HZCustIDNo" label="核注清单客户识别号" width="140"></el-table-column>
               <el-table-column prop="HZDocNo" label="核注清单单证号" width="120">
                 <template slot-scope="scope">
@@ -575,11 +575,24 @@
             </el-col>
           <el-col :span="24">
             <el-form-item size="small" label="指定处理人" class="df">
-              <el-input
-                placeholder="请输入内容"
+              <el-autocomplete
+                size="small"
+                class="width100"
+                popper-class="my-autocomplete"
                 v-model="handler"
-                clearable>
-              </el-input>
+                clearable
+                :fetch-suggestions="querySearch"
+                placeholder="请输入内容"
+                >
+                <i
+                  class="el-icon-edit el-input__icon"
+                  slot="suffix"
+                  >
+                </i>
+                <template slot-scope="{ item }">
+                  <div class="name">{{ item.value }}</div>
+                </template>
+              </el-autocomplete>
             </el-form-item>
           </el-col>
           <el-col :span="24">
