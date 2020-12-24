@@ -220,7 +220,18 @@
           <el-table-column prop="goodFlow" label="货物流向" width="120"></el-table-column>
           <el-table-column prop="rqstReleaseDate" sortable label="要求放行时间" width="120"></el-table-column>
           <el-table-column prop="uRent" label="是否加急" width="120"></el-table-column>
-          <el-table-column prop="urentRemark" label="加急原因" width="120"></el-table-column>
+          <el-table-column prop="urentRemark" label="加急原因" width="120">
+             <template slot-scope="scope">
+              <el-popover
+                  placement="right"
+                  width="200"
+                  trigger="hover"
+                  >
+                  <p class="font12 c-gray">这里是加急原因这里是加急原因这里是加急原因这里是加急原因这里是加急原因这里是加急原因这里是加急原因</p>
+                  <span slot="reference" class="cursor">{{scope.row.urentRemark}}</span>
+              </el-popover>
+            </template>
+          </el-table-column>
           <el-table-column prop="receiveMan" label="接单人员" width="120"></el-table-column>
           <el-table-column prop="receiveDate" sortable label="接单日期" width="120"></el-table-column>
           </el-table>

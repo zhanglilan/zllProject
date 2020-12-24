@@ -5,8 +5,8 @@
       class="el-menu-vertical-demo"
       >
       <el-menu-item index="9">
-        <i class="el-icon-s-data"></i>
-        <span slot="title">统计图表</span>
+        <i class="el-icon-s-platform"></i>
+        <span slot="title">工作台</span>
       </el-menu-item>
       <el-submenu index="1">
         <template slot="title">
@@ -20,40 +20,29 @@
         <el-submenu index="1-3">
           <template slot="title"><i class="el-icon-menu"></i>正式订单</template>
           <el-menu-item index="1-3-1"><i class="el-icon-s-platform"></i>我的订单</el-menu-item>
-          <el-menu-item index="1-3-2"><i class="el-icon-location"></i>我的制单</el-menu-item>
-          <el-menu-item index="1-3-3"><i class="el-icon-location"></i>我的审单</el-menu-item>
-          <el-menu-item index="1-3-4"><i class="el-icon-location"></i>我的待申报</el-menu-item>
-          <el-menu-item index="1-3-5"><i class="el-icon-location"></i>我的申报中</el-menu-item>
-          <el-menu-item index="1-3-6"><i class="el-icon-s-tools"></i>已完成</el-menu-item>
+          <el-menu-item index="1-3-2"><i class="el-icon-location"></i>我的制/审单</el-menu-item>
+          <el-menu-item index="1-3-3"><i class="el-icon-location"></i>我的申报</el-menu-item>
         </el-submenu>
       </el-submenu>
       <el-menu-item index="2">
         <i class="el-icon-menu"></i>
-        <span slot="title">异常管理</span>
+        <span slot="title">管理中心</span>
       </el-menu-item>
       <el-menu-item index="3">
-        <i class="el-icon-document"></i>
-        <span slot="title">随附单据管理</span>
-      </el-menu-item>
-      <el-menu-item index="4">
-        <i class="el-icon-setting"></i>
-        <span slot="title">现场海关管理</span>
-      </el-menu-item>
-      <el-menu-item index="5">
-        <i class="el-icon-setting"></i>
-        <span slot="title">业务跟踪</span>
-      </el-menu-item>
-      <el-menu-item index="6">
-        <i class="el-icon-setting"></i>
+        <i class="el-icon-s-open"></i>
         <span slot="title">辅助管理</span>
       </el-menu-item>
-      <el-menu-item index="7">
-        <i class="el-icon-setting"></i>
+      <el-menu-item index="4">
+        <i class="el-icon-s-custom"></i>
         <span slot="title">结算管理</span>
       </el-menu-item>
-      <el-menu-item index="8">
+      <el-menu-item index="5">
+        <i class="el-icon-s-data"></i>
+        <span slot="title">商客管理</span>
+      </el-menu-item>
+      <el-menu-item index="6">
         <i class="el-icon-s-tools"></i>
-        <span slot="title">系统管理</span>
+        <span slot="title">基础支撑</span>
       </el-menu-item>
     </el-menu>
   </div>
